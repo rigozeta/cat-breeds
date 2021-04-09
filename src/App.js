@@ -41,8 +41,6 @@ function App() {
 	const changeSelectedBreed = (newBreed) =>{
 		console.log("New selected", newBreed.target.value);
 		if(newBreed.target.value !== 0){
-
-			// setSelectedBreed(newBreed.target.value)
 			axios({
 				method: 'get',
 				url: "https://api.thecatapi.com/v1/images/search",
