@@ -8,3 +8,7 @@ Header {
 .cat-list {
 	margin: 2em auto;
 }
+
+.btn.btn-primary a, .btn.btn-success a, .btn:hover a {
+	color:white;
+}
